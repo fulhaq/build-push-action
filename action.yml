@@ -11,7 +11,7 @@ runs:
     - build-push
 inputs:
   username:
-    description: Username used to log in to a Docker registry. If not set then no login will occur
+    description: Username used to log in to a Docker registry. If not set then no login will occur.
     required: false
   password:
     description: Password or personal access token used to log in to a Docker registry. If not set then no login will occur
